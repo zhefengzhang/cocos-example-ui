@@ -4,6 +4,16 @@
     "is3DIcon": false,
     "iconSize": 2,
     "gridVisible": true,
+    "originAxis2D": {
+      "x_visible": true,
+      "y_visible": true,
+      "z_visible": false
+    },
+    "originAxis3D": {
+      "x_visible": true,
+      "y_visible": false,
+      "z_visible": true
+    },
     "gridColor": [
       150,
       150,
@@ -12,7 +22,11 @@
     ],
     "isIconGizmo3D": false,
     "iconGizmoSize": 2,
-    "isGridVisible": true
+    "isGridVisible": true,
+    "transformToolName": "position",
+    "pivot": "pivot",
+    "coordinate": "local",
+    "toolsVisibility3d": true
   },
   "camera-infos": {
     "b59e0761-ea04-4a78-b7c0-1672219c7f18": {
@@ -55,7 +69,7 @@
   "camera-uuids": [
     "f46876e4-e81b-4931-b493-6d367be385e7"
   ],
-  "__version__": "1.0.0",
+  "__version__": "1.0.3",
   "camera": {
     "fov": 45,
     "far": 10000,
@@ -77,5 +91,21 @@
   "builder": {},
   "": {
     "sculpt_brush_rotate": 0
+  },
+  "snap-configs": {
+    "position": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "rotation": 1,
+    "scale": 1,
+    "isPositionSnapEnabled": false,
+    "isRotationSnapEnabled": false,
+    "isScaleSnapEnabled": false
+  },
+  "rect-snap-configs": {
+    "enableSnapping": true,
+    "snapThreshold": 4
   }
 }

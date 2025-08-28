@@ -1,14 +1,14 @@
 {
-  "ver": "2.3.4",
+  "ver": "2.3.14",
   "importer": "gltf",
   "imported": true,
   "uuid": "501da3c5-f2d8-45f7-bc04-5130d58811ff",
   "files": [
-    "__original-animation-0.cconb"
+    "__original-animation-0.bin"
   ],
   "subMetas": {
     "cd579": {
-      "ver": "1.0.16",
+      "ver": "1.0.18",
       "importer": "gltf-animation",
       "name": "cocos_anim_jump.animation",
       "id": "cd579",
@@ -16,7 +16,7 @@
       "uuid": "501da3c5-f2d8-45f7-bc04-5130d58811ff@cd579",
       "imported": true,
       "files": [
-        ".cconb"
+        ".bin"
       ],
       "subMetas": {},
       "userData": {
@@ -32,7 +32,7 @@
       }
     },
     "645e0": {
-      "ver": "1.0.12",
+      "ver": "1.0.14",
       "importer": "gltf-scene",
       "name": "cocos_anim_jump.prefab",
       "id": "645e0",
@@ -62,12 +62,12 @@
             "name": "cocos_anim_jump",
             "from": 0,
             "to": 1.6666667461395264,
-            "wrapMode": 2
+            "wrapMode": 2,
+            "previousId": "cd579"
           }
         ]
       }
     ],
-    "redirect": "501da3c5-f2d8-45f7-bc04-5130d58811ff@645e0",
     "assetFinder": {
       "scenes": [
         "501da3c5-f2d8-45f7-bc04-5130d58811ff@645e0"
@@ -77,6 +77,24 @@
       "textures": [],
       "materials": []
     },
-    "imageMetas": []
+    "imageMetas": [],
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
   }
 }
